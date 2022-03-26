@@ -9,8 +9,12 @@
 
 :exclamation:Important:exclamation: 
 </center>
-You have to be in the folder where the files you want to manage with Git are
+
+You have to be in the folder where the files you want to manage with Git are.
 
 ---
 ## Git add
 
+<p align="center">
+Lorem iasdasd
+</p>
