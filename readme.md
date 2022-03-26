@@ -16,10 +16,35 @@
 ---
 ## git add :cherry_blossom:
 
-![git init](gifs/gitAdd.gif)
+![git add](gifs/gitAdd.gif)
 
-This command adds new or changed files in your working directory to the Git staging area. This basically means that in order to manage wit git the files in your repository you need to add them
+This command adds new or changed files in your working directory to the Git staging area. This basically means that in order to manage wit git the files in your repository you need to add them.
 
-- You can add all the files wit git add ., or add one or more with git add x, where x is the file name with the extension 
+- You can add all the files with **git add .** or add one or more with **git add x**, where x is the file name with the extension.
+
+---
 
 ## git status :bell:
+
+![git status](gifs/gitStatus.gif)
+
+It's a command used to display the state of the repository and staging area.
+
+- In this case it shows that the file has changes that need to be commited.
+---
+
+## git commit :wolf:
+
+![git push](gifs/gitCommit.gif)
+
+With this command yo make an snapshot of your repo at a specific point in time. Is like a "save" freature that allows you to save all the work in the repository until now.
+
+- If you add **-m** at the end of the command, it allows you to write a comment where you can write what are the changes made.
+
+## git remote add an git push 
+
+![git push](gifs/gitPush.gif)
+
+With **git remote add origin url** where url is the url of your remote repository, you associate the local and remote repositories.
+
+With **git push -u origin main** you are 
