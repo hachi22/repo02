@@ -33,18 +33,21 @@ It's a command used to display the state of the repository and staging area.
 - In this case it shows that the file has changes that need to be commited.
 ---
 
-## git commit :wolf:
+## git commit :camera:
 
 ![git push](gifs/gitCommit.gif)
 
 With this command yo make an snapshot of your repo at a specific point in time. Is like a "save" freature that allows you to save all the work in the repository until now.
 
 - If you add **-m** at the end of the command, it allows you to write a comment where you can write what are the changes made.
+---
 
-## git remote add an git push 
+## git remote add and git push :wolf:
 
-![git push](gifs/gitPush.gif)
+![git push](gifs/gitPush.gif) 
 
 With **git remote add origin url** where url is the url of your remote repository, you associate the local and remote repositories.
 
-With **git push -u origin main** you are 
+With **git push -u origin main** you are sending all the files with commits to the remote repository, in this case to the main branch.
+
+  - To create the branch named main, you have to write **git branch -M main** in Git Bash
