@@ -50,4 +50,4 @@ With **git remote add origin url** where url is the url of your remote repositor
 
 With **git push -u origin main** you are sending all the files with commits to the remote repository, in this case to the main branch.
 
-  - To create the branch named main, you have to write **git branch -M main** in Git Bash.
+  - To rename your branch to main, you have to write **git branch -M main** in Git Bash.
